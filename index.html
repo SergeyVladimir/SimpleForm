@@ -1,0 +1,20 @@
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<html>
+    <head>
+    </head>
+    <body>
+        <link href="/css/index.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="/css/cssworld.ru-xcal.css" />
+        <script type="text/javascript" src="/js/cssworld.ru-xcal.js"></script>
+        <script src="/js/script.js"></script>
+        <form name="feedback" id="feedback" class="form" onsubmit="return validateForm()" action="sendMail.php" method="post">
+            <h2>Обратная связь</h2>
+            <p type="Имя:"><input name="name" id="name" placeholder="Введите свое имя здесь.."></input></p>
+            <p type="Email:"><input name="email" id="email" placeholder="Введите свою почту здесь.."></input></p>
+            <p type="Телефон:"><input name="telefon" id="telefon"  placeholder="Введите свой телефон здесь.."></input></p>
+            <p type="День рождения:"><input name="birthday" id="birthday" placeholder="День рождения" type="text" onClick="xCal(this)" onKeyUp="xCal()"></input></p>
+            <p type="Ваш вопрос:"><textarea name="question" id="question" placeholder="Введите свой вопрос здесь.." rows="7" cols="41" name="text"></textarea></p>
+            <button>Послать сообщение</button>
+        </form>
+    </body>
+</html>
